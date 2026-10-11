@@ -1,0 +1,37 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "OmniEd Integrated Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit",
+    "test": "echo \"No tests specified yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holliejohnson532-afk/Holliejohnson532-omnied-integrated-platform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holliejohnson532-afk/Holliejohnson532-omnied-integrated-platform/issues"
+  },
+  "homepage": "https://github.com/holliejohnson532-afk/Holliejohnson532-omnied-integrated-platform#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
